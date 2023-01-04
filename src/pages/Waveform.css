@@ -1,0 +1,74 @@
+.container {
+	display: flex;
+	align-items: center;
+	max-width: 330px;
+	padding: 3em 0;
+}
+h1 {
+	font-size: 20px;
+}
+.button {
+	background: black;
+	color: white;
+	border: none;
+	width: 40px;
+	height: 40px;
+	border-radius: 100%;
+	outline: none;
+	text-transform: uppercase;
+	transition: all 0.2s ease;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.some {
+	width: 270px;
+}
+.playlist {
+	text-align: left;
+	border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.playlist-item {
+	color: #444;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	padding: 1em;
+}
+
+.playlist-item.selected {
+	font-weight: bold;
+}
+
+.playlist-item:hover {
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.controls {
+	text-align: left;
+	padding-right: 10px;
+}
+
+.disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+/* Spinner loading */
+.spinner {
+    background-image: url('../preloader/spinner.gif');
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    background-position: center;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    border-radius: 50%;
+    overflow: hidden;
+    border: none;
+}
+
+.spinner h1{
+    display: none;
+}

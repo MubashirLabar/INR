@@ -1,0 +1,24 @@
+/*.navlink{*/
+/*    text-decoration: none;*/
+/*}*/
+.navlink:active, /* активная/посещенная ссылка */
+.navlink:hover, /* при наведении */
+.navlink:first-child {
+    text-decoration: none;
+    color: black;
+}
+.selected{
+   border-bottom: 1px solid black;
+}
+.container{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    /*position: fixed;*/
+}
+
+@media only screen and (max-width:540px){
+    .navlink{
+        padding: 0 5px;
+    }
+}

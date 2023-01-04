@@ -1,0 +1,7 @@
+.block2{
+    opacity: 0;
+    transition: all 2s ease;
+}
+.block1:hover .block2  {
+    opacity: 1;
+}
